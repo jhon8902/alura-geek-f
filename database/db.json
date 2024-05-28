@@ -1,0 +1,58 @@
+{
+  "products": [
+    {
+      "name": "Renault Megane",
+      "price": " $200.000.000",
+      "image": "../img/megane.jpg",
+      "id": 1
+    },
+    {
+      "name": "Alfa Romeo",
+      "price": "$300.000.000",
+      "image": "../img/romeo.png",
+      "id": 2
+    },
+    {
+      "name": "Mercedes AMG",
+      "price": "$210.000.000",
+      "image": "../img/mercedes.jpg",
+      "id": 3
+    },
+    {
+      "name": "Chevrolet Camaro",
+      "price": "$200.000.000",
+      "image": "../img/camaro.jpg",
+      "id": 4
+    },
+    {
+      "name": "Porche-911",
+      "price": "$700.000.000",
+      "image": "../img/porche.jpg",
+      "id": 5
+    },
+    {
+      "name": "Mercedes AMG G63",
+      "price": "$600.000.000",
+      "image": "../img/mercedes1.jpg",
+      "id": 6
+    },
+    {
+      "name": "Mazda CX-90",
+      "price": "$190.000.000",
+      "image": "../img/mazda2.jpg",
+      "id": 7
+    },
+    {
+      "name": "Audi Q8 ",
+      "price": "$190.000.000",
+      "image": "../img/audi.jpg",
+      "id": 8
+    },
+    {
+      "name": "KGM Torres",
+      "price": "$150.000.000",
+      "image": "../img/torres.jpg",
+      "id": 9
+    }
+  ]
+}
