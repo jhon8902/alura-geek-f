@@ -9,6 +9,8 @@ productContainer.addEventListener("click", async (event)=> {
     await servicesProducts.deleteproducts(targetaid);
     
    }
+
+
    
 });
 
