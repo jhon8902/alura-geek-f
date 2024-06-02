@@ -100,6 +100,8 @@
     color: #000505;
     text-transform: uppercase;
     border-radius: 10px;
+  
+    
   }
 
 
@@ -142,6 +144,7 @@ flex-direction: column;
     width: 80%;
    border-radius: 25px;
    width: max-content;
+   font-weight: 600;
 }
 
 .button-clear{
@@ -177,8 +180,9 @@ flex-direction: column;
       width: 30%;
       
       &::placeholder{
-        color: #000;
-        background: #cccc;
+        color: #040101;
+        background: #dcdcdccc;
+        font-weight: 600;
 
       }
     }
