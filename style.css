@@ -94,12 +94,12 @@
   /*titulo mis productos y gregar productos*/
   h1, h2{
     text-align: center;
-    padding: 20px;
-    font-size: 20px;
-    /*ingrsado 1 minuto*/
-    color: #000505;
-    text-transform: uppercase;
+    padding: 30px;
+    font-size: 25px;
+    color: #080808;
+    text-shadow: 10px;
     border-radius: 10px;
+   
   
     
   }
@@ -107,26 +107,50 @@
 
   h2{
     padding-right: 25px;
-    
-    
   }
   
 
 /*agregar productos*/
 .form-container {
-flex-direction: column;
+  flex-direction: column;
   display: flex;
   padding: 100px;
   text-align: center;
   margin: 30px;
   width: 100%;
   border-radius: 25px; 
-
-  
- 
-  
 }
+/*inputs agregar productos*/
+.inputs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    background: url(img/volkswagen.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    gap: 2rem;
+    padding: 5rem 1rem;
 
+    input{
+      padding: 0.5rem;
+      border-radius: 1.25rem;
+      
+      
+      
+      &::placeholder{
+        color: #040101;
+        background: #dcdcdccc;
+        font-weight: 600;
+        border-radius: 5px;
+
+      }
+    }
+
+
+}
   /*botones limpiar enviar*/
   .button-container {
     padding: 10px;
@@ -138,13 +162,13 @@ flex-direction: column;
     gap: 10px;
   }
 
-  .button-submit, .button-clear{
+.button-submit, .button-clear{
     padding: 8px;
     color: #000;
     width: 80%;
-   border-radius: 25px;
-   width: max-content;
-   font-weight: 600;
+    border-radius: 25px;
+    width: max-content;
+    font-weight: 600;
 }
 
 .button-clear{
@@ -156,40 +180,6 @@ flex-direction: column;
   border-end-end-radius: 25px;
   width: 90px;
 }
-
-
-/*inputs agregar productos*/
-.inputs{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    border-radius: 10px;
-  
-    
-    background: url(img/volkswagen.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    gap: 3rem;
-    padding: 5rem 1rem;
-
-    input{
-      padding: 0.5rem;
-      border-radius: 1.25rem;
-      width: 30%;
-      
-      &::placeholder{
-        color: #040101;
-        background: #dcdcdccc;
-        font-weight: 600;
-
-      }
-    }
-
-
-}
-
 
 /*contenido mis productos*/
 .products-container::-webkit-scrollbar-track{
@@ -220,7 +210,7 @@ flex-direction: column;
     padding: 10px;
 
     border-radius: 5px;
-    border: 3px solid rgb(252, 248, 248);
+    border: 3px solid rgb(253, 252, 251);
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -244,11 +234,11 @@ flex-direction: column;
   
   /*seccion footer*/
   footer {
-   background: #c4c3c3;
+   background: #b6b7b7;
     
     padding: 25px;
     text-align: center;
-    color: #030303f5;
+    color: #070000f5;
     font-size: 10px;
   }
 
